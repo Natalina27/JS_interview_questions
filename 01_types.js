@@ -39,5 +39,19 @@ console.log('42' - 2); //40
 console.log( '42px' - 2);//NaN
 console.log(null + 2); //2
 console.log(undefined + 42); //NaN
+console.log('====================');
 
-// == vs ===
+// == vs === (== with type conversion)
+console.log( 2 == '2');
+console.log(2 === '2');
+console.log(undefined == null);
+console.log(undefined === null);
+console.log('0' == false);
+console.log('0' == 0);
+console.log(0 == 0);
+console.log('================');
+
+
+
+
+
