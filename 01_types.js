@@ -25,11 +25,13 @@ console.log(Boolean(false));
 //true : {}, []
 console.log(Boolean({}));
 console.log(Boolean([]));
+console.log('===================');
+
 
 //Strings and Math
 console.log(1 + '2'); // 12
 console.log('' + 1 + 0); // 10
-console.log('' - 1 + 0); //-1
+console.log('' - 1 + 2); //1
 console.log('3' * '8'); //24
 console.log(4 + 10 + 'px'); //14px
 console.log('px' + 5 + 10); //px510
