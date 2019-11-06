@@ -27,3 +27,15 @@ console.log(Boolean({}));
 console.log(Boolean([]));
 
 //Strings and Math
+console.log(1 + '2'); // 12
+console.log('' + 1 + 0); // 10
+console.log('' - 1 + 0); //-1
+console.log('3' * '8'); //24
+console.log(4 + 10 + 'px'); //14px
+console.log('px' + 5 + 10); //px510
+console.log('42' - 2); //40
+console.log( '42px' - 2);//NaN
+console.log(null + 2); //2
+console.log(undefined + 42); //NaN
+
+// == vs ===
