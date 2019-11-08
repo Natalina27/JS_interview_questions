@@ -82,7 +82,7 @@ if(obj.b){
 }else{
     console.log(false);
 }
-console.log(obj.b);//false
+console.log('obj.b = ' + obj.b);//false
 console.log('' === true);
 console.log(typeof '');
 console.log('str' === true);
