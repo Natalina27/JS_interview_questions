@@ -52,16 +52,41 @@ console.log(0 == 0); //true
 console.log('================');
 
 //stranges
-console.log();
-console.log();
-console.log();
-console.log();
-console.log();
-console.log();
-console.log();
-console.log();
-console.log();
-console.log();
+console.log(false == ''); //true
+console.log(false === '');//false
+console.log('' === false); //false
+console.log('***');
+console.log(undefined == false); //false
+console.log('***');
+console.log(false == []);//true
+console.log(false === []); //false
+console.log(false == {}); //false
+console.log(false === {}); //false
+console.log('***');
+console.log('' == 0); //true
+console.log('' === 0); //false
+console.log('' == []); //true
+console.log('' === []); //false
+console.log('' == {});//false
+console.log('' === {});//false
+console.log('***');
+console.log(0 == []); //true
+console.log(0 == {}); //false
+console.log(0 == null);//false
+console.log('================');
+const obj = { a:1, b:'', c:[], d:'str'};
+console.log('' === false); //false
+console.log( obj.a ? true : false  ,  obj.b ? true : false,  obj.c ? true : false,  obj.d ? true : false ); //true ,false, true, true
+if(obj.b){
+    console.log(true);
+}else{
+    console.log(false);
+}
+console.log(obj.b);//false
+console.log('' === true);
+console.log(typeof '');
+console.log('str' === true);
+
 
 
 
