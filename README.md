@@ -14,3 +14,5 @@
 1:17:16 New
 1:21:30 Прототипы
 1:34:38 Асинхронность
+
+*** < https://www.youtube.com/watch?v=M_pclb-58ZY >
