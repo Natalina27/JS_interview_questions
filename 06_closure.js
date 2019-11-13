@@ -34,6 +34,8 @@ manager.add('VueJS');
 manager.print();
 
 // Example from other source:
+//важность использования замыканий: для поддержания собственной ссылки на переменную во внешней области видимости.
+//Это очень мощная техника — она даёт замыкающей функции guessPassword исключительный доступ к переменной password, делая невозможным доступ к password снаружи.
 function secretPassword (){
     let password = 'xh39sk';
 
@@ -47,3 +49,4 @@ function secretPassword (){
 let passwordGame = secretPassword();
 console.log(passwordGame.guessPassword('nutd5'));
 console.log(passwordGame.guessPassword('xh39sk'));
+
