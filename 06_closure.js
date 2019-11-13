@@ -32,3 +32,18 @@ console.log(manager);
 manager.print();
 manager.add('VueJS');
 manager.print();
+
+// Example from other source:
+function secretPassword (){
+    let password = 'xh39sk';
+
+    return{
+        guessPassword: function(guess){
+            return guess === password;
+        }
+    }
+}
+
+let passwordGame = secretPassword();
+console.log(passwordGame.guessPassword('nutd5'));
+console.log(passwordGame.guessPassword('xh39sk'));
