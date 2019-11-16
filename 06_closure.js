@@ -61,3 +61,20 @@ for ( var i = 0; i < fib.length; i++) { // let resolve this problem without clos
         }, 1500);
     })(i)
 }
+
+// url
+function  urlGenerator(domain) {
+    return function (url) {
+        return `https://${url}.${(domain)}`
+    }
+}
+
+const comUrl = urlGenerator('com');
+const itUrl = urlGenerator('it');
+const ruUrl = urlGenerator('ru');
+
+console.log(comUrl('google'));
+console.log(itUrl('google'));
+console.log(ruUrl('google'));
+
+
