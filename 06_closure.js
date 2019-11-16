@@ -50,3 +50,14 @@ let passwordGame = secretPassword();
 console.log(passwordGame.guessPassword('nutd5'));
 console.log(passwordGame.guessPassword('xh39sk'));
 
+//setTimeout
+
+const fib = [1, 2, 3, 5, 8, 13];
+
+for ( var i = 0; i < fib.length; i++) { // let resolve this problem without closure
+    (function(j) {
+        setTimeout(function () {
+            console.log((`fib[${j}] = ${fib[j]}`));
+        }, 1500);
+    })(i)
+}
