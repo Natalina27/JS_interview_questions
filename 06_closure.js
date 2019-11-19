@@ -40,10 +40,8 @@ function secretPassword (){
     let password = 'xh39sk';
 
     return{
-        guessPassword: function(guess){
-            return guess === password;
+        guessPassword:  (guess) => guess === password,
         }
-    }
 }
 
 let passwordGame = secretPassword();
