@@ -3,7 +3,9 @@
 const person = {
     surname: 'STARK',
     knows : function (what, name) {
-        console.log(`You ${what} know, ${name} ${this.surname}`);
+        console.log(`You  know ${what}, ${name} ${this.surname}`);
     }
 };
+
+person.knows('everything', 'Bran');
 
