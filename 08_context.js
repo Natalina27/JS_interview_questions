@@ -7,5 +7,10 @@ const person = {
     }
 };
 
+const john ={
+    surname: 'SNOW',
+};
+
 person.knows('everything', 'Bran');
+person.knows.call(john, 'nothing', 'John');
 
