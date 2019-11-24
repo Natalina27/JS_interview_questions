@@ -13,4 +13,11 @@ const john ={
 
 person.knows('everything', 'Bran');
 person.knows.call(john, 'nothing', 'John');
+person.knows.apply(john, ['nothing', 'John']);
+person.knows.call(john, ...['nothing', 'John']);
+person.knows.bind(john, ...['nothing', 'John'])();
+const bound = person.knows.bind(john, ...['nothing', 'John']);
+bound();
+
+
 
