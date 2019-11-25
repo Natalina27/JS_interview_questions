@@ -19,5 +19,13 @@ person.knows.bind(john, ...['nothing', 'John'])();
 const bound = person.knows.bind(john, ...['nothing', 'John']);
 bound();
 
+//===========
+//Class constructor
+function Person(name, age){
+    this.name = name;
+    this.age = age;
+
+    console.log(this);
+}
 
 
