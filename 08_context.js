@@ -28,4 +28,14 @@ function Person(name, age){
     console.log(this);
 }
 
+const elena = new Person('Elena', 20); //this
+//=======
+function logThis() {
+    console.log(this);
+}
+
+const obj = {num: 42};
+logThis.apply(obj);
+logThis.call(obj);
+logThis.bind(obj)();
 
