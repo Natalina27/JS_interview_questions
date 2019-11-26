@@ -1,4 +1,4 @@
-//this
+//this - explicit context
 //call(), apply(), bind()
 const person = {
     surname: 'STARK',
@@ -39,3 +39,5 @@ logThis.apply(obj);
 logThis.call(obj);
 logThis.bind(obj)();
 
+// ======
+//this - implicit context
