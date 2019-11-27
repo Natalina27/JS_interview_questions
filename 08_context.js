@@ -41,3 +41,11 @@ logThis.bind(obj)();
 
 // ======
 //this - implicit context
+const animal = {
+    legs: 4,
+    logThis: function(){
+        console.log(this)
+    }
+};
+
+animal.logThis();
