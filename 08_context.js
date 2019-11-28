@@ -49,3 +49,5 @@ const animal = {
 };
 
 animal.logThis();
+
+//this and arrow functions
