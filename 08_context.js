@@ -44,10 +44,18 @@ logThis.bind(obj)();
 const animal = {
     legs: 4,
     logThis: function(){
-        console.log(this)
+        console.log('This', this);
     }
 };
 
 animal.logThis();
 
 //this and arrow functions
+console.log('==========================');
+function Cat(color) { //function creates its own context this
+    this.color = color;
+    console.log('This', this);
+    (() => console.log('Arrow this', this))();//Arrow function doesn't create its own context
+}
+
+new Cat('red');
