@@ -1,5 +1,5 @@
 //new
-
+//взаимодействие между обьектами
 function Cat (color, name){
     this.color = color;
     this.name = name;
