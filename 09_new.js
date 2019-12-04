@@ -20,6 +20,6 @@ const newCat = myNew(Cat,'black', 'KOT');
 console.log(newCat);
 
 //
-const cat1 = Cat();
+const cat1 = new Cat();
 console.log('cat1 = ' , cat1); //undefined
 
