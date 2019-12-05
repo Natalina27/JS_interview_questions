@@ -21,5 +21,5 @@ console.log(newCat);
 
 //
 const cat1 = new Cat();
-console.log('cat1 = ' , cat1); //undefined
+console.log('cat1 = ' , cat1); //cat1 =  Cat { color: undefined, name: undefined }
 
