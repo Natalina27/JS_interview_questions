@@ -18,3 +18,9 @@ console.log('====================');
 function Person() {}
 Person.prototype.legs = 2;
 Person.prototype.skin = 'white';
+
+const person = new Person();
+person.name = 'Natalya';
+
+console.log('skin' in person);
+console.log(person.legs);
