@@ -14,3 +14,7 @@ console.log(cat.constructor);
 
 //=================================
 console.log('====================');
+
+function Person() {}
+Person.prototype.legs = 2;
+Person.prototype.skin = 'white';
