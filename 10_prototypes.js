@@ -24,3 +24,8 @@ person.name = 'Natalya';
 
 console.log('skin' in person);
 console.log(person.legs);
+console.log(person.name);
+
+console.log(person.hasOwnProperty('name'));
+
+
